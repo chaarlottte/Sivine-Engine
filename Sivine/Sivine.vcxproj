@@ -72,16 +72,16 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Sivine\Sivine\Libraries\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Sivine\Sivine\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Sivine\Sivine-Engine\Libraries\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Sivine\Sivine-Engine\Libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Sivine\Sivine\Libraries\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Sivine\Sivine\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Sivine\Sivine-Engine\Libraries\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Sivine\Sivine-Engine\Libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -146,8 +146,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\glad.c" />
+    <ClCompile Include="EBO.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="shaderClass.cpp" />
+    <ClCompile Include="VAO.cpp" />
     <ClCompile Include="VBO.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -155,7 +157,9 @@
     <None Include="default.vert" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="EBO.h" />
     <ClInclude Include="shaderClass.h" />
+    <ClInclude Include="VAO.h" />
     <ClInclude Include="VBO.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

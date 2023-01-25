@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Sivine\Sivine\x64\Debug\Sivine.exe</FullPath>
+      <FullPath>C:\Sivine\Sivine-Engine\x64\Debug\Sivine.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
