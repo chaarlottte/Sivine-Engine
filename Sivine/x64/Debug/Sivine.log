@@ -1,7 +1,10 @@
 ﻿  Main.cpp
+  VAO.cpp
+C:\Sivine\Sivine-Engine\Sivine\VAO.cpp(11,63): warning C4244: 'argument': conversion from 'GLsizeiptr' to 'GLsizei', possible loss of data
+  Generating Code...
 glfw3.lib(input.obj) : warning LNK4099: PDB 'glfw3.pdb' was not found with 'glfw3.lib(input.obj)' or at 'C:\Sivine\Sivine-Engine\x64\Debug\glfw3.pdb'; linking object as if no debug info
-glfw3.lib(monitor.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(monitor.obj)' or at ''; linking object as if no debug info
+glfw3.lib(monitor.obj) : warning LNK4099: PDB 'glfw3.pdb' was not found with 'glfw3.lib(monitor.obj)' or at 'C:\Sivine\Sivine-Engine\x64\Debug\glfw3.pdb'; linking object as if no debug info
 glfw3.lib(window.obj) : warning LNK4099: PDB 'glfw3.pdb' was not found with 'glfw3.lib(window.obj)' or at 'C:\Sivine\Sivine-Engine\x64\Debug\glfw3.pdb'; linking object as if no debug info
-glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB '' was not found with 'glfw3.lib(win32_joystick.obj)' or at ''; linking object as if no debug info
+glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB 'glfw3.pdb' was not found with 'glfw3.lib(win32_joystick.obj)' or at 'C:\Sivine\Sivine-Engine\x64\Debug\glfw3.pdb'; linking object as if no debug info
 glfw3.lib(win32_window.obj) : warning LNK4099: PDB 'glfw3.pdb' was not found with 'glfw3.lib(win32_window.obj)' or at 'C:\Sivine\Sivine-Engine\x64\Debug\glfw3.pdb'; linking object as if no debug info
   Sivine.vcxproj -> C:\Sivine\Sivine-Engine\x64\Debug\Sivine.exe
